@@ -5,3 +5,8 @@ function run(){
 (async function index() {
   run();
 })();
+
+
+export function greeting(){
+  return "hello"
+}

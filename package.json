@@ -4,6 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
+    "test": "jest",
     "build": "tsc",
     "start": "node dist/index.js",
     "prestart": "npm run build",
@@ -15,10 +16,13 @@
   "devDependencies": {
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
+    "@types/jest": "^29.0.3",
     "@types/node": "latest",
     "@types/puppeteer": "latest",
     "husky": "latest",
+    "jest": "^29.0.3",
     "standard-version": "latest",
+    "ts-jest": "^29.0.1",
     "typescript": "latest"
   },
   "dependencies": {
